@@ -1,0 +1,20 @@
+{
+  "name": "git-hub-actions",
+  "version": "1.0.0",
+  "description": "Ejemplo de CI/CD en Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "npm run test && echo 'Build completado'",
+    "package": "npm pack"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
